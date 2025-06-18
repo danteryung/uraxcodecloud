@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1532F52F2E028B1D00AD42DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1532F5102E028B1A00AD42DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1532F5172E028B1A00AD42DA;
+			remoteInfo = uraxcodecloud;
+		};
+		1532F5392E028B1D00AD42DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1532F5102E028B1A00AD42DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1532F5172E028B1A00AD42DA;
+			remoteInfo = uraxcodecloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1532F5182E028B1A00AD42DA /* uraxcodecloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uraxcodecloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1532F52E2E028B1D00AD42DA /* uraxcodecloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uraxcodecloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1532F5382E028B1D00AD42DA /* uraxcodecloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uraxcodecloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1532F5402E028B1D00AD42DA /* Exceptions for "uraxcodecloud" folder in "uraxcodecloud" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1532F5172E028B1A00AD42DA /* uraxcodecloud */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1532F51A2E028B1A00AD42DA /* uraxcodecloud */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1532F5402E028B1D00AD42DA /* Exceptions for "uraxcodecloud" folder in "uraxcodecloud" target */,
+			);
+			path = uraxcodecloud;
+			sourceTree = "<group>";
+		};
+		1532F5312E028B1D00AD42DA /* uraxcodecloudTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = uraxcodecloudTests;
+			sourceTree = "<group>";
+		};
+		1532F53B2E028B1D00AD42DA /* uraxcodecloudUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = uraxcodecloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1532F5152E028B1A00AD42DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F52B2E028B1D00AD42DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F5352E028B1D00AD42DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1532F50F2E028B1A00AD42DA = {
+			isa = PBXGroup;
+			children = (
+				1532F51A2E028B1A00AD42DA /* uraxcodecloud */,
+				1532F5312E028B1D00AD42DA /* uraxcodecloudTests */,
+				1532F53B2E028B1D00AD42DA /* uraxcodecloudUITests */,
+				1532F5192E028B1A00AD42DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1532F5192E028B1A00AD42DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1532F5182E028B1A00AD42DA /* uraxcodecloud.app */,
+				1532F52E2E028B1D00AD42DA /* uraxcodecloudTests.xctest */,
+				1532F5382E028B1D00AD42DA /* uraxcodecloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1532F5172E028B1A00AD42DA /* uraxcodecloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1532F5412E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloud" */;
+			buildPhases = (
+				1532F5142E028B1A00AD42DA /* Sources */,
+				1532F5152E028B1A00AD42DA /* Frameworks */,
+				1532F5162E028B1A00AD42DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1532F51A2E028B1A00AD42DA /* uraxcodecloud */,
+			);
+			name = uraxcodecloud;
+			packageProductDependencies = (
+			);
+			productName = uraxcodecloud;
+			productReference = 1532F5182E028B1A00AD42DA /* uraxcodecloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1532F52D2E028B1D00AD42DA /* uraxcodecloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1532F5462E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloudTests" */;
+			buildPhases = (
+				1532F52A2E028B1D00AD42DA /* Sources */,
+				1532F52B2E028B1D00AD42DA /* Frameworks */,
+				1532F52C2E028B1D00AD42DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1532F5302E028B1D00AD42DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1532F5312E028B1D00AD42DA /* uraxcodecloudTests */,
+			);
+			name = uraxcodecloudTests;
+			packageProductDependencies = (
+			);
+			productName = uraxcodecloudTests;
+			productReference = 1532F52E2E028B1D00AD42DA /* uraxcodecloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1532F5372E028B1D00AD42DA /* uraxcodecloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1532F5492E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloudUITests" */;
+			buildPhases = (
+				1532F5342E028B1D00AD42DA /* Sources */,
+				1532F5352E028B1D00AD42DA /* Frameworks */,
+				1532F5362E028B1D00AD42DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1532F53A2E028B1D00AD42DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1532F53B2E028B1D00AD42DA /* uraxcodecloudUITests */,
+			);
+			name = uraxcodecloudUITests;
+			packageProductDependencies = (
+			);
+			productName = uraxcodecloudUITests;
+			productReference = 1532F5382E028B1D00AD42DA /* uraxcodecloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1532F5102E028B1A00AD42DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1532F5172E028B1A00AD42DA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1532F52D2E028B1D00AD42DA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1532F5172E028B1A00AD42DA;
+					};
+					1532F5372E028B1D00AD42DA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1532F5172E028B1A00AD42DA;
+					};
+				};
+			};
+			buildConfigurationList = 1532F5132E028B1A00AD42DA /* Build configuration list for PBXProject "uraxcodecloud" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1532F50F2E028B1A00AD42DA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1532F5192E028B1A00AD42DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1532F5172E028B1A00AD42DA /* uraxcodecloud */,
+				1532F52D2E028B1D00AD42DA /* uraxcodecloudTests */,
+				1532F5372E028B1D00AD42DA /* uraxcodecloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1532F5162E028B1A00AD42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F52C2E028B1D00AD42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F5362E028B1D00AD42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1532F5142E028B1A00AD42DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F52A2E028B1D00AD42DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1532F5342E028B1D00AD42DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1532F5302E028B1D00AD42DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1532F5172E028B1A00AD42DA /* uraxcodecloud */;
+			targetProxy = 1532F52F2E028B1D00AD42DA /* PBXContainerItemProxy */;
+		};
+		1532F53A2E028B1D00AD42DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1532F5172E028B1A00AD42DA /* uraxcodecloud */;
+			targetProxy = 1532F5392E028B1D00AD42DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1532F5422E028B1D00AD42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uraxcodecloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1532F5432E028B1D00AD42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uraxcodecloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1532F5442E028B1D00AD42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1532F5452E028B1D00AD42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1532F5472E028B1D00AD42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uraxcodecloud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uraxcodecloud";
+			};
+			name = Debug;
+		};
+		1532F5482E028B1D00AD42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uraxcodecloud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uraxcodecloud";
+			};
+			name = Release;
+		};
+		1532F54A2E028B1D00AD42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uraxcodecloud;
+			};
+			name = Debug;
+		};
+		1532F54B2E028B1D00AD42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH5F2VBM8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uracle.uraxcodecloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uraxcodecloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1532F5132E028B1A00AD42DA /* Build configuration list for PBXProject "uraxcodecloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1532F5442E028B1D00AD42DA /* Debug */,
+				1532F5452E028B1D00AD42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1532F5412E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1532F5422E028B1D00AD42DA /* Debug */,
+				1532F5432E028B1D00AD42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1532F5462E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1532F5472E028B1D00AD42DA /* Debug */,
+				1532F5482E028B1D00AD42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1532F5492E028B1D00AD42DA /* Build configuration list for PBXNativeTarget "uraxcodecloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1532F54A2E028B1D00AD42DA /* Debug */,
+				1532F54B2E028B1D00AD42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1532F5102E028B1A00AD42DA /* Project object */;
+}
